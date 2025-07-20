@@ -1,13 +1,13 @@
-# 🎙️ Voice_Controlled Assistant 
+# Voice_Controlled Assistant 
 
 A simple voice-controlled assistant built using Python. It listens to your voice commands, processes them, and responds back with text-to-speech. It can greet you, tell jokes, give you the time and date, and open websites, among other things.
 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-### 📦 
+###  
 ```
 ├── main.py            
 ├── text_processing.py  
@@ -16,7 +16,7 @@ A simple voice-controlled assistant built using Python. It listens to your voice
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Install the required packages:
 ```
@@ -34,7 +34,7 @@ Linux: sudo apt-get install portaudio19-dev before installing
 
 ---
 
-## 🚀 How to Run
+## How to Run
 ```
 python main.py
 ```
@@ -43,25 +43,25 @@ Once you run it, your assistant will start listening to your voice and respond a
 
 ---
 
-## 🧠 Features
+## Features
 
-🤖 Greets and responds conversationally
+ Greets and responds conversationally
 
-😂 Tells jokes
+ Tells jokes
 
-⏰ Tells the current time and date
+ Tells the current time and date
 
-🌐 Opens a website on voice command
+ Opens a website on voice command
 
-🧽 Basic text pre-processing and command matching
+ Basic text pre-processing and command matching
 
-🎤 Supports Google Speech Recognition
+ Supports Google Speech Recognition
 
 
 
 ---
 
-## 🎯 Example Commands
+## Example Commands
 
 Command	Action
 ```
@@ -76,7 +76,7 @@ Command	Action
 
 ---
 
-## 📌 Notes
+## Notes
 
 Requires an internet connection (for Google Speech API).
 
