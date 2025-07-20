@@ -28,13 +28,6 @@ Matplotlib (for forecast chart)
 OpenWeatherMap API
 
 
-## 🖥️ Screenshots
-
-Here's how the app looks in actions
-![Weather app Screenshot1](images/screenshot(1).png)
-
-
-
 ## 🔧 How to Run
 
 1. Install dependencies:
@@ -70,3 +63,14 @@ Click Get Weather to fetch current and forecast data.
 weatherapi.py        
 README.md           
 ```
+
+
+## 🖥️ Screenshots
+
+Here's how the app looks in actions
+![Weather app Screenshot1](images/Screenshot(1).png)
+![Weather app Screenshot2](images/Screenshot(2).png)
+
+
+
+
