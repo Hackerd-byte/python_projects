@@ -13,7 +13,7 @@ def get_weather(city, units='metric'):
     weather_data = requests.get(weather_url).json()
     forecast_data = requests.get(forecast_url).json()
     return weather_data, forecast_data
-st.title("☁ Real-Time Weather App")
+st.title("Real-Time Weather App")
 city = st.text_input("Enter City Name", "Chennai")
 unit = st.radio("Select Unit", ["Celsius", "Fahrenheit"])
 unit_key = 'metric' if unit == 'Celsius' else 'imperial'
@@ -39,9 +39,9 @@ if st.button("Get Weather"):
             st.image(f"http://openweathermap.org/img/wn/{icon}@2x.png", width=80)
             st.write(description)
 
-        st.write(f"🌅 *Sunrise*: {sunrise} UTC")
-        st.write(f"🌇 *Sunset*: {sunset} UTC")
-        st.subheader("📅 5-Day Forecast (Every 3 hrs)")
+        st.write(f"*Sunrise*: {sunrise} UTC")
+        st.write(f"*Sunset*: {sunset} UTC")
+        st.subheader("5-Day Forecast (Every 3 hrs)")
         times = []
         temps = []
 
