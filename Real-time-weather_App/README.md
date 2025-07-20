@@ -30,6 +30,9 @@ OpenWeatherMap API
 
 ## 🖥️ Screenshots
 
+Here's how the app looks in actions
+![Weather app Screenshot1](images/screenshot(1).png)
+
 
 
 ## 🔧 How to Run
