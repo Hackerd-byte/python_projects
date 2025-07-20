@@ -1,8 +1,5 @@
 import speech_recognition as sr
-import pyaudio 
 from datetime import datetime
-import pyjokes
-import webbrowser
 import pyttsx3
 import os
 from text_processing import commands
