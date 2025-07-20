@@ -7,11 +7,12 @@ A simple voice-controlled assistant built using Python. It listens to your voice
 
 ## 📂 Project Structure
 
-### 📦 voice_assistant
-├── main.py               # Entry point: listens and responds to user commands
-├── text_processing.py    # Handles text parsing and response logic
-└── README.md             # Documentation
-
+### 📦 
+```
+├── main.py            
+├── text_processing.py  
+└── README.md
+```
 
 ---
 
